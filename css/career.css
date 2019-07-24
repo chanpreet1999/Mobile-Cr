@@ -1,0 +1,14 @@
+body{
+	text-align: center;
+}
+.section-head{
+	text-align: center;
+	z-index: 1;
+	color: white;
+	display: inline-block;
+	background-color: #b00707;
+	padding: 10px 12px;
+	font-size: 160%;
+	font-weight: bold;
+	margin-top:20px; 
+}

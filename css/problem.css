@@ -1,0 +1,207 @@
+
+
+.abc h1{
+text-align: center;
+color: #990000;
+font-size: 45px;
+margin-top: 50px;
+
+
+}
+
+.abc h3{
+
+	text-align: center;
+	color: #990000;
+	font-size: 30px;
+	margin-top: 60px;
+	margin-left: 50px;
+	
+}
+
+.abc img{
+	float: right;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+.abc p{
+
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+
+.small{
+
+	text-align: center;
+	font-size: 10px;
+}
+
+.x h4{
+
+	
+	color: #990000;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.x h5{
+
+	
+	color: #990000;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.button{
+	border-radius: 5px;
+	background-color: #990000;
+	color: white;
+	padding: 10px; 
+	margin-top: 30px;
+ 
+
+}
+.x img
+{
+	float: right;
+	margin-bottom: 100px;
+}
+
+.nav-link
+{
+  color: white;
+  padding: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.ab{
+    background-color: black;
+    color: white;
+  }
+  .ab a{
+    color: white;
+  }
+  .ab li{
+
+    font-size: 20px;
+    padding: 10px;
+  }
+  hr{
+    background-color:  white;
+  }
+
+.bg-overlay{
+
+	 background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../image/a9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+
+}
+
+.bg-overlay h1{
+	margin-top: 30px;
+	font-size: 40px;
+	justify-content: center;
+	text-align: center;
+}
+.bg-overlay p{
+	margin-top: 30px;
+text-align: center;
+font-size: 24px;
+
+
+}
+
+
+
+
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 5px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 2px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=email]{
+  width: 100%; /* Full width */
+  padding: 5px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 2px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:#990000 ;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 1px;
+  
+  padding: 2px;
+}
+.bg-dark{
+      background-color: #b00707 !important;
+    
+
+    }
+    .dropdown:hover>.dropdown-menu{
+      display: block;
+
+    }
+    .nav-link{
+      
+      color: #fff !important;
+    }
+    .active{
+      
+      font-weight: 1000;
+
+
+    }
+    
+    .dropdown-menu{
+      
+      background-color: #fff;
+    
+
+    }
+    .dropdown-item{
+      color: black;
+      font-weight: 400;
+    }

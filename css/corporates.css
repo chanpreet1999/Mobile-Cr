@@ -1,0 +1,82 @@
+body{
+	margin: 0px;
+	padding:0px;
+	text-align: center;
+	word-wrap: break-word;
+}
+.section-head{
+	text-align: center;
+	z-index: 1;
+	color: white;
+	display: inline-block;
+	background-color: #b00707;
+	padding: 10px 12px;
+	font-size: 160%;
+	font-weight: bold;
+	margin-top:20px; 
+}
+.section-sub-head{
+	z-index: 1;
+	color: white;
+	display: inline-block;
+	background-color: #b00707;
+	padding: 10px 12px;
+	justify-content: left;
+	font-size: 130%;
+	margin-top:12px; 
+	text-align: left;
+	opacity: .7;
+
+}
+.section-content1{
+	font-size: 21px;
+	font-weight: 600;
+}
+.corporate-images{
+	margin-bottom: 61px;
+}
+.corporate-images:hover{
+	opacity: .7;
+}
+.bg-overlay{
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/yo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	height: 680px;
+	padding-right:50px;
+	padding-top:50px;
+	padding-left: 50px;
+	position: relative;
+}
+.font-awesome{
+	margin-top: 10px;
+	margin-bottom: -40px;
+	padding: 10%;
+	color: #b00707;
+}
+.buttons{
+	text-align: center;
+	display: inline-block;
+	background-color: #b00707;
+	color: #fff;
+	text-decoration: none;	
+	margin: 1px;
+	font-size:100%;
+	font-weight: 400;
+	padding:12px 16px;
+	border-radius: 12px;
+}
+.buttons:hover{
+	text-decoration:none;
+	color: #000;
+	background-color: #ddd;
+	transition: .3s;
+
+}
+.section-content2{
+	font-size:190%;
+	font-weight: 500;
+}
+

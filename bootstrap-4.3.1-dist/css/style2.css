@@ -1,0 +1,377 @@
+body
+{
+	
+	text-align: center;
+	font-size: 20px;
+
+}
+h2{
+	color: white;
+	margin-bottom: 25px;
+	margin-left:20px; 
+	margin-top:25px 
+}
+
+h3{
+	color: blue;
+	margin-bottom: 25px;
+	margin-left:20px; 
+	margin-top:25px 
+}
+
+.im
+{
+	margin-right: 50px;
+	margin-top: 200px;
+	float: right;
+	size: 20px;
+}
+.abc
+{
+	
+	
+	width: 80%;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	margin-right: 500px;
+	margin-left: 100px;
+
+	padding: 25px;  
+
+}
+
+
+.block
+{
+	width: 80%;
+	background-color: #cc0000; 
+	color: white;
+	font-size: 20px;
+	margin-right: 500px;
+	margin-left: 100px;
+	
+
+}
+
+.mycon
+{
+	width: 300px;
+	background-color: #b00707 !important; 
+	color: white;
+	margin-top: 20px;
+	margin-left:600px;
+	
+	margin-bottom:30px;
+	text-align: center!important;
+}
+.ob
+{
+	text-align: center;
+	margin-left: 500px;
+	padding: 50px;
+}
+h4
+{
+	color: red;
+}
+.a
+{
+	margin-left: 150px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 500px;
+	width: 350px;
+
+	text-align: center;
+}
+.b
+{
+	margin-right: 150px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.d
+{
+	text-align: center;
+	margin-left: 0px;
+	padding: 10px;
+	float: right;
+	size: 7px;
+	margin-top: 200px;
+
+}
+
+h5
+{
+	color: red;
+}
+
+.gap
+{
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.gap1
+{
+	margin-left: 300px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.gap2
+{
+	margin-right: 15px;
+}
+.gap3
+{
+	margin-left: 550px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.gap4
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 45px;
+}
+
+
+
+.hovereffect {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+}
+
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(0,0,0,0.5);
+-webkit-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+h1
+{
+	color: white;
+}
+.hovereffect h2  h1{
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+
+background:rgba(0,0,0,0.6);
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-100px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:10px;
+font-size: 12px;
+}
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+.hovereffect:hover h2 {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+}
+.row{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.xy
+{
+	background: #b00707 !important;
+	color: white !important;
+
+}
+.bro
+{
+	height: 50px !important;
+	margin: 0px !important;
+}
+i
+{
+	color: white;
+	background-color: #b00707;
+}
+.ques
+{
+	text-align: center;
+	font-weight: 30px;
+}/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 5px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 2px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=email]{
+  width: 100%; /* Full width */
+  padding: 5px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 2px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #b00707;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: black;
+}
+
+
+.fot{
+    background-color: black;
+    color: white;
+  }
+  .fot a{
+    color: white;
+  }
+  .fot li{
+
+    font-size: 20px;
+    padding: 10px;
+  }
+  hr{
+    background-color:  white;
+  }
+
+
+  .aaa{
+font-size: 20px;
+
+  color: white;
+  border-radius: 4px;
+  
+  
+  text-align: center;
+
+
+}
+
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.container{
+  color: black;
+  padding: 16px;
+}

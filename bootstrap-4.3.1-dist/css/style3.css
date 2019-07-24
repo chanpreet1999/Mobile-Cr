@@ -1,0 +1,10 @@
+body
+{
+	background-image: url(.../images/xxx.jpg) no-repeat center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+
+}
+

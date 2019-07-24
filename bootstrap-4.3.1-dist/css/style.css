@@ -1,0 +1,259 @@
+*{
+
+	font-family: Century Gothic;
+}
+.mycontainer
+{
+	width: 300px;
+	background-color: #cc0000; 
+	color: white;
+	margin-left:100px;
+	padding:200px;
+
+}
+.mycon
+{
+	width: 300px;
+	background-color: yellow; 
+	color: white;
+	margin-top: 20px;
+	margin-left:600px;
+	padding:10px;
+	margin-bottom:30px;
+	text-align: center;
+}
+
+.box
+{  	
+  	padding:20px;
+  	 margin-left:500px;
+}
+
+p.b::first-letter {
+  color: #cc0000;
+  font-size: xx-large;
+}
+
+.a
+{
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	margin-left: 500px;
+
+	padding: 20px;
+	
+}
+.c{
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	margin-left: 400px;
+	padding: 20px;
+	margin-right: 200px;
+}
+.d{
+	margin-left:0px !important;
+}
+p.new,h5
+{
+	margin-bottom: 25px;
+	margin-left: 200px; 
+	margin-top:25px 
+	text-align: center;
+}
+p.new1
+{
+	margin-bottom: 25px;
+	margin-left: 500px; 
+	margin-right: 500;
+	margin-top:25px 
+	text-align: center;
+
+}
+.sbox{
+	
+	
+	width: 1000px;
+	display: block;
+margin-left: auto;
+margin-right:auto; 
+margin-top: 50px;
+margin-bottom: 50px;
+	
+}
+
+
+h4,h2
+{
+	position: center;
+	
+
+}
+.b
+{
+	margin-top: 0px;
+	margin-left: 50px;
+	text-align: center;
+	line-height: 0.8;
+}
+
+.picc{
+
+	float: left;
+
+}
+
+i{
+	color:#b00704;
+}
+.xy
+{
+	background: #b00707 !important;
+	color: white !important;
+
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 5px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 2px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=email]{
+  width: 100%; /* Full width */
+  padding: 5px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 2px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #b00707;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: black;
+}
+
+
+.fot{
+    background-color: black;
+    color: white;
+  }
+  .fot a{
+    color: white;
+  }
+  .fot li{
+
+    font-size: 20px;
+    padding: 10px;
+  }
+  hr{
+    background-color:  white;
+  }
+
+
+  .aaa{
+font-size: 20px;
+
+  color: white;
+  border-radius: 4px;
+  
+  
+  text-align: center;
+
+
+}
+
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.container{
+  color: black;
+  padding: 16px;
+}

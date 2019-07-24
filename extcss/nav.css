@@ -1,0 +1,27 @@
+.bg-dark{
+      background-color: #b00707 !important;
+    }
+    .dropdown:hover>.dropdown-menu{
+      display: block;
+    }
+    .nav-link{
+      
+      color: #fff !important;
+    }
+    
+    
+    .active
+    {
+      font-weight: 1000;
+
+    }
+    .dropdown-menu
+    {
+      background-color: #fff;
+    }
+    .dropdown-item
+    {
+      color: black;
+      font-weight: 400;
+
+    }

@@ -1,0 +1,19 @@
+body{
+	text-align: center;
+}
+.contact-head{
+	display: block;
+    background-color: black;
+    color: white;
+    font-size: 27px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+	border: none;
+}
+.card-text{
+	text-align: left;
+}

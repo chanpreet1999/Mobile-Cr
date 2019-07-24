@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>navbar</title>
+	
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!--custom nav css-->
+	<!--adjust href according to your nav.css file-->
+	<!--take mc logo file from img/mc-logo.webp-->
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>		
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		
+		<button class="navbar-toggler" data-toggle="collapse" 
+		data-target="#collapse_target">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="collapse_target">
+
+		<a class="navbar-brand" href="#"><img src="img/mc-logo.webp" class="w-75"></a>
+
+		<ul class="navbar-nav nav-fill w-75">
+
+
+			<li class="nav-item">
+				<a href="#" class="nav-link active" >Home</a>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target1">
+					About Us
+					<span class="caret"></span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="dropdown_target1">
+					<a  class="dropdown-item" href="#">Our Values</a>
+					<a  class="dropdown-item" href="#">Our Story</a>
+					<a  class="dropdown-item" href="#">Our Team</a>
+					<a  class="dropdown-item" href="#">Our Partners</a>
+					<a  class="dropdown-item" href="#">Our Financials</a>
+					<a  class="dropdown-item" href="#">Our Governing Council</a>
+				</div>
+			</li>
+			
+			<li class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target2">
+					Our Work
+					<span class="caret"></span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="dropdown_target2">
+					<a  class="dropdown-item" href="#">Field Program</a>
+					<a  class="dropdown-item" href="#">Training</a>
+					<a  class="dropdown-item" href="#">Advocacy</a>
+				</div>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target3">
+					Why Us
+					<span class="caret"></span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="dropdown_target3">
+					<a  class="dropdown-item" href="#">The Problem</a>
+					<a  class="dropdown-item" href="#">Our Solution</a>
+					<a  class="dropdown-item" href="#">Our Impact</a>
+				</div>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target4">
+					Join Us
+					<span class="caret"></span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="dropdown_target4">
+					<a  class="dropdown-item" href="#">Individuals</a>
+					<a  class="dropdown-item" href="#">Corporates</a>
+					<a  class="dropdown-item" href="#">Institutions</a>
+					<a  class="dropdown-item" href="#">Tenders</a>
+					<a  class="dropdown-item" href="#">Volunteers</a>
+					<a  class="dropdown-item" href="#">Careers</a>
+					<a  class="dropdown-item" href="#">Contact</a>
+				</div>
+			</li>
+
+
+			<li class="nav-item">
+				<a href="#" class="nav-link">Blog</a>
+			</li>
+
+			<li class="nav-item">
+				<a href="#" class="nav-link">Donate</a>
+			</li>
+
+		</ul>
+	</div>
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
