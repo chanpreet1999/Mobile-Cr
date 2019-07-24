@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--BOOTSTRAP CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!--JQUERY LIBRARY-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--POPPER.JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!--BOOTSTRAP JS-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   
+   <!--animate.css-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+
+
+  
+  <!-- The Modal -->
+  <div class="modal animated swing" id="donateModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title">Welcome to Mobile Creches</h5>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          You can help us by donating :)
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger mr-auto" onclick="location.href='joinUs.html' ">Donate Now</button>
+          <button type="button" class="btn btn-light" data-dismiss="modal">May Be Later</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+<!--on page load modal script-->
+<script>
+$(document).ready(function(){
+
+    $("#donateModal").modal();
+  
+});
+</script>
+
+</body>
+</html>
