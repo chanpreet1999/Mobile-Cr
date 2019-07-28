@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>custom popup</title>
+
+	<!--BOOTSTRAP CSS-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	 <!--animate.css-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/custom-modal.css">
+</head>
+<body>
+	<button id="popupBtn" class="button">Click Here</button>
+	<div id="simplePopup" class="popup">
+		<div class="popupContent">
+			<div class="popupHeader">
+				<span class="closeBtn">&times;</span>
+				<h2>Welcome to the popup</h2>
+			</div>
+			<div class="popupBody">
+				<p>Hello I am a custom modal</p>
+
+				
+			</div>
+			<div class="popupFooter">
+				<h3>PopUp Footer</h3>
+				<button type="button" class="btn btn-danger" onclick="location.href='joinUs.html'">Donate Now</button>
+				<button type="button" class="btn btn-light mr-auto" onclick="closePopup();" style="float: right;">Maybe Later</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="css/custom-modal.js"></script>
+</body>
+</html>

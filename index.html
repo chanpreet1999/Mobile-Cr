@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
   <link rel="stylesheet" type="text/css" href=" https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  
   <link rel="stylesheet" type="text/css" href="css/index.css">
+  
   <script src="https://kit.fontawesome.com/3e4590c73d.js"></script>
-  <link rel="stylesheet" type="text/css" href="popup.css">
 
-
-
-
-
+  <link rel="stylesheet" type="text/css" href="css/custom-modal-for-index.css">
 
 
   <title>Mobile Creches|Indian NGO for Early child Development & Rights</title>
@@ -481,21 +481,28 @@
 
 
   </div>
-  <!--popup text-->
-  <!-- use this for popup-->
-  <div id="boxes">
-    <div style="top: 199.5px; left: 551.5px; display: none;" id="dialog" class="window">Webenlance
-      <div id="lorem">
-        <p> Webenlance was established in November 2010 at new delhi, India. The Webenlance is a Digital Commerce company. The Founder of Comapany Have More than 6 + Years of experience in this industries. We have served over 100+ clients all over the India and earned their trust & satisfaction in the quality work we delivered them. We specialize in projects that combine creativity and innovation with the highest levels of quality with intelligent ... </p>
+  
+
+  <!--custom popup chanpreet-->
+  
+  <div id="simplePopup" class="popup">
+    <div class="popupContent">
+      <div class="popupHeader">
+        <span class="closeBtn ml-2">&times;</span>
+        <h2>Welcome to Mobile Creches</h2>
       </div>
-      <div id="popupfoot"> <a href="http://webenlance.com/" class="close agree">I agree</a> | <a class="agree"style="color:red;" href="http://webenlance.com/">I do not agree</a> </div>
+      <div class="popupBody">
+        <p>You can help us by donating</p>
+        
+      </div>
+      <div class="popupFooter">
+        <h3>PopUp Footer</h3>
+        <button type="button" class="btn btn-danger" onclick="location.href='joinUs.html'">Donate Now</button>
+        <button type="button" class="btn btn-light mr-auto closePopup" style="float: right;">Maybe Later</button>
+      </div>
     </div>
-    <div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
   </div>
-  <!-- use this for popup-->
-  <!--popup ends-->
-
-
+  <!--custom popup ends-->
 
 
 
@@ -709,7 +716,8 @@ window.onclick = function(event) {
 
 
 
-
+<!--custom popup js-->
+<script type="text/javascript" src="css/custom-modal-for-index.js"></script>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
